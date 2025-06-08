@@ -7,7 +7,7 @@ import ProtectedRoute from './components/protected-route/ProtectedRoute'
 
 function App() {
 
-  return ( 
+  return (
     <>
     <BrowserRouter>
       <Routes>
