@@ -6,7 +6,7 @@ import Register from './pages/register/Register'
 import ProtectedRoute from './components/protected-route/ProtectedRoute'
 
 function App() {
- 
+
   return (
     <>
     <BrowserRouter>
