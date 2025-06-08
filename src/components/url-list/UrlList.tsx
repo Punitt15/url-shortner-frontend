@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { fetchWithAuth } from "../../utils/api";
-import type { UrlList, UrlListProps } from "../../types/types";
+import type { UrlList } from "../../types/types";
 
-export default function UrlList({ onRefresh }: UrlListProps) {
+export default function UrlList() {
     const navigate = useNavigate();
     const [urls, setUrls] = useState([]);
     const [loading, setLoading] = useState(false);

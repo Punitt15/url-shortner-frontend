@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { fetchWithAuth } from '../../utils/api';
 
 interface ProtectedRouteProps {
     children: React.ReactNode;
